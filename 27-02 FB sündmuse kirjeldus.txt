@@ -1,5 +1,13 @@
-Kui mured end su ette laovad, siis tule ja proge Javat! Kell 18:30 ootab EIK-410 klassiruum kõikide Java kursuste pagulasi, kes soovivad end soojendada külmal veebruarikuul arvutiekraani soojas kumas.
+Kui mured end su ette laovad, siis tule ja proge Javat! Kell 18:30 ootab EIK-410
+klassiruum kõikide Java kursuste pagulasi, kes soovivad end soojendada külmal
+veebruarikuul arvutiekraani soojas kumas.
 
-Pane end kirja, kui JavaFX ei ole veel su sinasõber või kui failide lugemine ja kirjutamine on tumedamat tüüpi maagia, sest harjutamine teeb meistriks. Nimelt arvame, et suudad pooleteise tunniga koodida parema tekstiredaktori kui MS Notepad, mis muide oleks ka välimuselt vapustav.
+Pane end kirja, kui JavaFX ei ole veel su sinasõber või kui failide lugemine ja
+kirjutamine on tumedamat tüüpi maagia, sest harjutamine teeb meistriks.
+Nimelt arvame, et suudad pooleteise tunniga koodida parema tekstiredaktori kui
+MS Notepad, mis muide oleks ka välimuselt vapustav.
 
-Koolitusel eeldame teilt programmeerimise põhiteadmisi, meie poolt on töökeskkond (arvuti ja IDE) ja koodispikker. Kui oled mässaja ja tahad osaleda hoolimata, et 20+ inimest on juba vajutanud “going”, siis pea meeles: võta oma seade kaasa!
+Koolitusel eeldame teilt programmeerimise põhiteadmisi, meie poolt on
+töökeskkond (arvuti ja IDE) ja koodispikker. Kui oled mässaja ja tahad osaleda
+hoolimata, et 20+ inimest on juba vajutanud "going",
+siis pea meeles: võta oma seade kaasa!
