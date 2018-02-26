@@ -1,6 +1,7 @@
 package ee.lapikud;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -46,7 +47,19 @@ public class Main extends Application {
                 }
             }
         });
-        menuFile.getItems().addAll(open, save);
+        MenuItem exit = new MenuItem("Exit");
+        exit.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                try {
+                    Platform.exit();
+                    System.exit(0);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        menuFile.getItems().addAll(open, save, exit);
         menuBar.getMenus().add(menuFile);
         root.setTop(menuBar);
 
