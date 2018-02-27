@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.time.LocalDate;
 
 
 public class Main extends Application {
@@ -59,7 +60,14 @@ public class Main extends Application {
                 }
             }
         });
-        menuFile.getItems().addAll(open, save, exit);
+        MenuItem date = new MenuItem("Date");
+        date.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                textArea.appendText(String.valueOf(LocalDate.now()));
+            }
+        });
+        menuFile.getItems().addAll(open, save, date, exit);
         menuBar.getMenus().add(menuFile);
         root.setTop(menuBar);
 
