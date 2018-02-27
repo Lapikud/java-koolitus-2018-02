@@ -30,8 +30,17 @@ public class Main extends Application {
         MenuItem open = new MenuItem("Open");
         open.setOnAction(actionEvent -> openFile(primaryStage));
         MenuItem save = new MenuItem("Save");
-        save.setOnAction(actionEvent -> saveFile(primaryStage));
-	MenuItem exit = new MenuItem("Exit");
+<<<<<<< Updated upstream
+        save.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                File file = fileChooser.showSaveDialog(primaryStage);
+                if (file != null) {
+                    saveFile(file);
+                }
+            }
+        });
+        MenuItem exit = new MenuItem("Exit");
         exit.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -51,6 +60,10 @@ public class Main extends Application {
             }
         });
         menuFile.getItems().addAll(open, save, date, exit);
+=======
+        save.setOnAction(actionEvent -> saveFile(primaryStage));
+        menuFile.getItems().addAll(open, save);
+>>>>>>> Stashed changes
         menuBar.getMenus().add(menuFile);
         root.setTop(menuBar);
 
