@@ -1,6 +1,6 @@
 # Notepad - java-koolitus-2018-02
 
-[Slides](https://docs.google.com/presentation/d/1wjm11HDtJEvrstCHfpo1LaSiUrvTOPVugp7PiQtmrzQ)
+## [Slides](https://docs.google.com/presentation/d/1wjm11HDtJEvrstCHfpo1LaSiUrvTOPVugp7PiQtmrzQ)
 
 # Functional requirements
 * Edit text in a large text area
